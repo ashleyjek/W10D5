@@ -8,6 +8,8 @@ function GalleryView(props) {
         return galleryId === record.gallerynumber;
     });
 
+    const art = gallery.objects.images 
+
     return (
         <>
             <h1>Hello from GalleryView</h1>
