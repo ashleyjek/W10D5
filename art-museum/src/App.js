@@ -21,6 +21,7 @@ function App() {
           <GalleryView galleries={harvardArt.records}/>
         </Route>
         < Redirect to="/error" />
+        
      </Switch>
     </div>
   );
