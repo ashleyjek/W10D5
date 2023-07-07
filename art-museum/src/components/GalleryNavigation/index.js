@@ -15,6 +15,7 @@ function GalleryNavigation(props) {
     return (
         <>
             <h1>Galleries</h1>
+            <h2> Look, but don't touch. Please select a gallery in the navigation bar</h2>
             <nav>
                 {galleryList};
             </nav>
